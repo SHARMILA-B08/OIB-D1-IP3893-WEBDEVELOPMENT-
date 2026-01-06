@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #020617;
+  color: #e5e7eb;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #1e293b, #020617);
+}
+
+.hero h1 {
+  font-size: 42px;
+}
+
+.hero p {
+  color: #94a3b8;
+  margin-top: 10px;
+}
+
+.info {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  align-items: center;
+}
+
+.info img {
+  width: 260px;
+  border-radius: 12px;
+}
+
+.details h2 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.about, .timeline, .gallery, .quotes, .achievements {
+  padding: 40px;
+}
+
+h2 {
+  color: #38bdf8;
+  margin-bottom: 15px;
+}
+
+.timeline ul li {
+  margin: 8px 0;
+}
+
+.timeline span {
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.gallery .images {
+  display: flex;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 30%;
+  border-radius: 10px;
+}
+
+.quotes blockquote {
+  background: #1e293b;
+  padding: 20px;
+  margin: 15px 0;
+  border-left: 5px solid #38bdf8;
+}
+
+.achievements ul li {
+  margin: 6px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+  color: #94a3b8;
+}
